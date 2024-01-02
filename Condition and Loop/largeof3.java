@@ -9,16 +9,9 @@ public class largeof3 {
         int a = q.nextInt();
         int b = q.nextInt();
         int c = q.nextInt();
-        if (a >= b && c >= b) {
-            System.out.print("A=");
-            System.out.println(a);
-        } else if (b >= a && b >= c) {
-            System.out.print("B=");
-            System.out.println(b);
-        } else {
-            System.out.print("C=");
-            System.out.println(c);
-        }
+
+        int max = Math.max(c, Math.max(a, b));
+        System.out.println(max);
 
     }
 

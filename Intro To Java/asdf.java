@@ -6,5 +6,4 @@ public class asdf {
         int a = 234_00_000;
         System.out.println(a);
     }
-
 }
