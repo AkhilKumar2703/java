@@ -41,6 +41,7 @@ public class subset {
             }
             end = outer.size() - 1;
             int n = outer.size();
+
             for (int j = start; j < n; j++) {
                 List<Integer> internal = new ArrayList<>(outer.get(j));
                 internal.add(arr[i]);
