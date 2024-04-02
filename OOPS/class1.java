@@ -27,7 +27,7 @@ public class class1 {
         System.out.println(akhil.marks);
 
         // System.out.println(Arrays.toString(student));
-
+        akhil.greeting();
     }
 
 }
@@ -36,6 +36,11 @@ class Students {
     int rollNo;
     String name;
     float marks;
+
+    // we can also add funtions inside a class
+    void greeting() {
+        System.err.println("MY name is " + name);
+    }
 
     // constructor
     Students() {
