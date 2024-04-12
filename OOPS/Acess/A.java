@@ -10,7 +10,7 @@ public class A {
     }
 
     a(int nums, String name){
-        this.nums= num;
+        this.nums= nums;
         this.name = name;
         this.arr = new int[arr];
 

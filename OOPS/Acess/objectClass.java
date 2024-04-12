@@ -1,6 +1,6 @@
 package OOPS.Acess;
 
-public class objectClass {
+public class objectClass extends A {
 
     int num;
 
