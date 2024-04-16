@@ -1,6 +1,6 @@
 package OOPS.Compare;
 
-public class A implements Comparable {
+public class A implements Comparable<A> {
     int roll;
     float marks;
 
