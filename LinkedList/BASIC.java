@@ -111,6 +111,7 @@ public class BASIC {
         return null;
     }
 
+    // this function provides the index value
     public node get(int index) {
         LL node = head;
         for (int i = 0; i < index; i++) {
