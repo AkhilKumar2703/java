@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.SingleLL;
 
 public class BasicLL {
     public static void main(String[] args) {
