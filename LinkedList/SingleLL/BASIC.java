@@ -102,7 +102,7 @@ public class BASIC {
     // to find any value
     public node find(int value) {
         LL node = head;
-        while (nde != null) {
+        while (node != null) {
             if (node.val == value) {
                 return node;
             }
