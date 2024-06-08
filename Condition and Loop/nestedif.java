@@ -16,8 +16,10 @@ public class nestedif {
 
         }
         if (a < 35) {
-            System.out.println("PADH LE BHADWE");
+            System.out.println("Fail ");
         }
 
     }
 }
+// exam 100 - 33 pass - pass - 90 topper
+// if(var > 30){ student pass if{}}

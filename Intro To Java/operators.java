@@ -35,5 +35,15 @@ public class operators {
         System.out.println(l);
         System.out.println('b' / 2);
 
+        int ab = 45;
+        int bcd = 55;
+        // operators
+        // Airthmatic OPerators (+ - * / & %)
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
+
     }
 }

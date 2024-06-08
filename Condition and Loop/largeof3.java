@@ -11,8 +11,15 @@ public class largeof3 {
         int c = q.nextInt();
 
         int max = Math.max(c, Math.max(a, b));
-        System.out.println(max);
+        int min = Math.min(c, Math.min(a, b));
+
+        int sq = (int) Math.sqrt(9);
+        System.out.println("SQUAREROOT IS:" + sq);
+
+        System.out.println("MAXIMUM :" + max);
+        System.out.println("MINIMUM :" + min);
 
     }
+    // math.operation
 
 }

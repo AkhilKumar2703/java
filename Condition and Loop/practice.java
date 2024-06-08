@@ -5,7 +5,7 @@ public class practice {
         Scanner in = new Scanner(System.in);
         System.out.print("ENTER THE FRUIT NAME: ");
         String fruit = in.next();
-        switch (fruit) {
+        switch (fruit) { // (conditipn to be checked)
             case "mango":
                 System.out.println("KING OF FRUITS");
                 break;
@@ -27,3 +27,4 @@ public class practice {
     }
 
 }
+// weekdays

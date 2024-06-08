@@ -5,10 +5,10 @@ public class primewhile {
     public static void main(String[] args) {
         Scanner e = new Scanner(System.in);
         System.out.print("GIVEN NO. =");
-        int d = e.nextInt();
+        int num = e.nextInt();
         int p = 2;
-        while (p <= d - 1) {
-            if (d % p == 0) {
+        while (p <= num - 1) {
+            if (num % p == 0) {
                 System.out.println("NOT A PRIME NUMBER ");
                 return;
             }

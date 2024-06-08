@@ -5,9 +5,9 @@ public class break1 {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int d = 2;
-        boolean di = false;
+        boolean check = false;
         while (d < n) {
-            if (n % d == 0) {
+            if (num % d == 0) {
                 di = true;
                 break;
             }

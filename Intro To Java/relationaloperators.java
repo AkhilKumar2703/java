@@ -7,12 +7,17 @@ public class relationaloperators {
         int a = g.nextInt();
         int b = g.nextInt();
 
-        boolean p = (a == b);
-        boolean l = (a > b);
-        boolean m = (a != b);
-        boolean n = (a >= b);
-        boolean k = (a < b);
-        boolean o = (a <= b);
+        // boolean p = (a == b);
+        // boolean l = (a > b);
+        // boolean m = (a != b);
+        // boolean n = (a >= b);
+        // boolean k = (a < b);
+        // boolean o = (a <= b);
+        boolean as = (a == b); // compare two values
+        boolean ww = (a != b); // not equal to
+        // <,> (greater than and equal to)
+        // >=
+
         System.out.println("IS EQUAL " + p);
         System.out.println("IS GREATER " + l);
         System.out.println("IS NOT EQUAL " + m);
