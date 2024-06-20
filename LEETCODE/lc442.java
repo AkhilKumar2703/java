@@ -1,9 +1,9 @@
 public class lc442 {
 
-}
+
 
 ////////////////////////////////////////////////////////////////
-class Solution {
+
     public List<Integer> findDuplicates(int[] nums) {
         int i = 0;
         while (i < nums.length) {

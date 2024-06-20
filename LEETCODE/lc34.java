@@ -1,19 +1,23 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class lc34 {
+    public static void main(String[] args) {
 
-}
+    }
 
-    public int[] searchRange(int[] nums, int target) {
+    public static int[] searchRange(int[] nums, int target) {
         int[] ans = { -1, -1 };
         int start = search(nums, target, true);
         int end = search(nums, target, false);
         ans[0] = start;
         ans[1] = end;
-        return ans;
+        return (ans);
 
     }
 
     // this method just returns the index of target
-    int search(int[] nums, int target, boolean findStartIndex) {
+    public static int search(int[] nums, int target, boolean findStartIndex) {
         int ans = -1;
         int start = 0;
         int end = nums.length - 1;

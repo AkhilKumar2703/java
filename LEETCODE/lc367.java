@@ -1,14 +1,16 @@
 public class lc367 {
+    // ques 367
+    public static void main(String[] args) {
+        int check = 13;
+        System.out.println(isPerfectSquare(check));
 
-}
+    }
 
-// ----------------------------------------------------------------
-class Solution {
-    public boolean isPerfectSquare(int num) {
-        if (num == 1) {
-            return true;
+    static boolean isPerfectSquare(int num) {
+        // if (num == 1) {
+        // return true;
 
-        }
+        // }
         int start = 1;
         int end = num / 2;
         while (start <= end) {

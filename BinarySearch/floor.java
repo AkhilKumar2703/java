@@ -1,17 +1,17 @@
 package BinarySearch;
 
-public BinarySearh{
+public class floor {
 
     public static void main(String[] args) {
-        int[] arr = { -12, 0, 1, 2, 3, 23, 29, 31, 45, 56, 89, 99, };
-        int target = 29;
+        int[] arr = { 45, 56, 89, 99, };
+        int target = 58;
         int ans = floor(arr, target);
         System.err.println(ans);
 
     }
 
     static int floor(int[] arr, int target) {
-        String nf = "ELEMENT DO NOT EXIST";
+
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
@@ -26,5 +26,5 @@ public BinarySearh{
         }
         return end;
     }
-    
+
 }

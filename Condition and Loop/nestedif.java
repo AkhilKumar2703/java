@@ -1,4 +1,4 @@
-package if_else;
+
 
 import java.util.Scanner;
 
@@ -8,14 +8,16 @@ public class nestedif {
         System.out.print("ENTER THE SCORE OF SUBEJCT=");
         int a = t.nextInt();
         if (a >= 40) {
-            System.out.println("STUDENT GOT PASSING MARKS");
+            
             if (a >= 90) {
                 System.out.println("HE IS ONE OF THE TOPPER ");
 
+            }else{
+            System.out.println("STUDENT GOT PASSING MARKS");
             }
 
-        }
-        if (a < 35) {
+        }else
+         {
             System.out.println("Fail ");
         }
 

@@ -1,5 +1,7 @@
 public class add2no {
     public static void main(String[] args) {
+
+
         // to add two numbers
         int a = 15; // integer
         int b = 35;

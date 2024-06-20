@@ -6,12 +6,13 @@ public class whileloop {
         int s = t.nextInt();
 
         // initialize
-        int i = 0;
+        int i = 1;
         // eg s = 20 , i =0 -> 0,1,2,3,
         while (i <= s) {
 
-            System.out.println(i);
-            i = i + 1;
+            System.out.print(i+" ");
+            i++;
+           // i = i + 1;
         }
 
     }

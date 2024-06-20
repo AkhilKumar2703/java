@@ -6,13 +6,13 @@ public class primewhile {
         Scanner e = new Scanner(System.in);
         System.out.print("GIVEN NO. =");
         int num = e.nextInt();
-        int p = 2;
-        while (p <= num - 1) {
-            if (num % p == 0) {
+        int i = 2;
+        while (i <= num - 1) {
+            if (num % i == 0) {
                 System.out.println("NOT A PRIME NUMBER ");
                 return;
             }
-            p = p + 1;
+            i = i + 1;
 
         }
         System.out.println("NUMBER IS PRIME ");

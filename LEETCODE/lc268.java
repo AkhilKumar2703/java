@@ -1,9 +1,14 @@
 public class lc268 {
 
-}
+
     // Amazon Question
 
-    public int missingNumber(int[] nums) {
+
+    public static void main(String[] args) {
+        
+    }
+
+    public static  int missingNumber(int[] nums) {
         int i = 0;
         while (i < nums.length) {
             int correct = nums[i];
@@ -23,12 +28,13 @@ public class lc268 {
             }
         }
         // case 2 when N is not present here ans= N itself
-        return arr.length;
+        return nums.length;
     }
 
-static void swap(int[] arr, int first, int second) {
+    public static void swap(int[] arr, int first, int second) {
     int temp = arr[first];
     arr[first] = arr[second];
     arr[second] = temp;
 
+}
 }
