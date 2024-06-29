@@ -1,13 +1,11 @@
-import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class twodarr {
     public static void main(String[] args) {
 
         int[][] arr = new int[3][3];
-
-        Scanner in = new Scanner(System.in);
+         Scanner in = new Scanner(System.in);
 
         // INPUT
 
@@ -19,7 +17,6 @@ public class twodarr {
         }
 
         // OUTPUT
-
         for (int r = 0; r < arr.length; r++) {
 
             System.out.println(Arrays.toString(arr[r]));

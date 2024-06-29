@@ -3,14 +3,14 @@ package Functions;
 public class strfnc {
 
     public static void main(String[] args) {
-        String mssge = greet();
-        System.out.println(mssge);
-
+       
+        demo("hello");
+        demo("print");
     }
 
-    static String greet() {
-        String greeting = "HELLO !! HOW ARE YOUR";
-        return greeting;
+    static void demo(String s) {
+       System.out.println(s);
+       
     }
 
 }

@@ -5,7 +5,7 @@ public class ls2d {
                 { 4, 5, 6 },
                 { 7, 8, 9 }
         };
-        int target = 15;
+        int target = 5;
         System.out.println(linearSearch(arr, target));
     }
 

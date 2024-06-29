@@ -1,20 +1,42 @@
 package Functions;
 
-import java.util.Scanner;
-
 public class prime {
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
+        System.out.println(tillN(10));
+        System.out.println(tillN(15));
+        System.out.println(tillN(20));
+        System.out.println(tillN(30));
 
-        for (int c = 2; c*c <= n; c++) {
-            if (n % c == 0) {
-                System.out.println("PRIME");
-                return;
+    }
+
+    public static boolean checkingPrime(int num){
+
+     for (int c = 2; c< num; c++) {
+            if (num % c == 0) {
+                
+                return false;
             }
 
         }
-        System.out.println("not prime");
+       return true;
+
+    }
+
+    public static void loop(int num){
+        for (int i = 1; i <= num; i++) {
+
+            System.out.print(i+" ");
+            
+        }
+    }
+
+    public static int tillN(int num){
+        int sum =0;
+        for (int i = 1; i <= num; i++){
+            sum =sum+i;
+
+        }
+        return sum;
     }
 }

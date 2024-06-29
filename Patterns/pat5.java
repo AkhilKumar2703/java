@@ -7,9 +7,9 @@ public class pat5 {
         int N = s.nextInt();
         int i = 1;
         while (i <= N) {
-            int j = 1;
-            while (j <= N) {
-                System.out.print(N - j + 1);
+            int j = 0;
+            while (j < i) {
+                System.out.print(N - j );
                 j = j + 1;
             }
             System.out.println();

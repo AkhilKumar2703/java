@@ -1,10 +1,10 @@
+import java.util.*;
 public class palinfrome {
 
     public static void main(String[] args) {
         String check = "aba";
         System.out.println(isPalinfrome(check));
-        int cn = 121;
-        System.out.println(isPalinfrome(cn));
+        
 
     }
 
@@ -25,21 +25,21 @@ public class palinfrome {
         return true;
     }
 
-    static boolean isPalindrome(int number) {
+    // static boolean isPalindrome(int number) {
 
-        if (number == null || number.length == 0) {
-            return true;
-        }
-        for (int i = 0; i <= number.length() / 2; i++) {
+    //     if (number == null || number.length == 0) {
+    //         return true;
+    //     }
+    //     for (int i = 0; i <= number.length / 2; i++) {
 
-            int start = i;
-            int end = number.length() - 1 - i;
-            if (start != end) {
-                return false;
-            }
+    //         int start = i;
+    //         int end = number.length - 1 - i;
+    //         if (start != end) {
+    //             return false;
+    //         }
 
-        }
-        return true;
-    }
+    //     }
+    //     return true;
+    // }
 
 }

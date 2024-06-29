@@ -10,7 +10,7 @@ public class pat21 {
             while (space <= N - i) {
                 System.out.print(" ");
                 space = space + 1;
-
+ 
             }
             int s = 1;
             while (s <= i) {

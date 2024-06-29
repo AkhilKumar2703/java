@@ -3,7 +3,7 @@ package BinarySearch;
 public class binSrch {
     public static void main(String[] args) {
         int[] arr = { -12, 0, 1, 2, 3, 23, 29, 31, 45, 56, 89, 99, };
-        int target = 29;
+        int target = 39;
         int ans = binarySearch(arr, target);
         System.err.println(ans);
 

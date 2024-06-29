@@ -1,29 +1,33 @@
-package Arrays;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
+import java.util.*;
 
 public class basicofARR {
     public static void main(String[] args) {
-        // datatype[] name = new int[n];
+        // datatype[] name = new datatype[n];
 
         int[] arr = new int[5];
         // name[index]= abl;
+       
         arr[0] = 10;
-
         arr[1] = 88;
         arr[2] = 99;
         arr[3] = 45;
         arr[4] = 83;
 
-        System.out.println(Arrays.toString(arr));
+        arr[1]=55;
 
-        arr[1] = 68;
-        System.out.println(Arrays.toString(arr));
+         System.out.println(Arrays.toString(arr));
 
-        int[] abc = { 1, 88, 6, 87, 99 };
-        abc[1] = 77;
-        System.out.println(Arrays.toString(abc));
+        // arr[1] = 68;
+        // System.out.println(Arrays.toString(arr));
+
+        // int[] abc = { 1, 88, 6, 87, 99 };
+        // abc[1] = 77;
+        // System.out.println(Arrays.toString(abc));
+
+
+        // String [] str = {"helo","world"};
+        // str[0]="hello";
 
         // System.out.println((arr[0]));
 

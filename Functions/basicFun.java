@@ -3,13 +3,19 @@ package Functions;
 public class basicFun {
     public static void main(String[] args) {
 
-         int ans = add(5, 10);
-        System.out.println(add(5, 10));
+        int ans = abs(5, 10);
+        System.out.println(abs(5, 10));
+         int s = abs(5, 10);
+
 
     }
 
-    static int add(int a, int b) {
-        int sum = a + b;
-        return sum;
+
+    public static int  abs(int a, int b) {
+
+        int ab = a + b;
+
+        return ab;
     }
+
 }
