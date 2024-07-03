@@ -7,13 +7,26 @@ public class scannercode1 {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-        // Scanner scanner_name = new Scanner(System.in);
         String str = s.nextLine();
-        // System.out.println(str);
-        char a = str.charAt(0);
+        char check = str.charAt(0);
+        System.out.println("Character = "+check);
+        System.out.println("string = "+str);
 
-        System.out.println("output " + a);
-        int first = s.nextInt();
+        float f = s.nextFloat();
+
+
+
+
+       // int a = s.nextInt();
+
+        // Scanner scanner_name = new Scanner(System.in);
+       // String str = s.nextLine();
+       
+        // System.out.println(str);
+        //char a = str.charAt(0);
+
+        //System.out.println("output " + a);
+      //  int first = s.nextInt();
         // System.out.print("ENTER YOUR PRINCIPAL VALUE: ");
         // // scanner syntex
         // );
@@ -22,7 +35,7 @@ public class scannercode1 {
         // System.out.print("ENTER YOUR TIME VALUE: ");
         // int T = s.nextInt();
         // System.out.print("YOUR SIMPLE INTEREST IS: ");
-        // int SI = (P * R * T / 100);
+       //  float SI = (P * R * T / 100);
         // System.out.println(SI);
 
     }

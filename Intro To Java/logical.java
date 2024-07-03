@@ -7,11 +7,11 @@ public class logical {
 
        // logical operators AND , OR
        // given two conditions if only one will be true then -> OR
-       boolean or  = !(num1>num2) || (num2>num3);
+    //    boolean or  = (num1<num2) || (num2<num3);
 
-       System.out.println(or);
+    //    System.out.println(or);
 // given two conditions if both will  be true then -> And
-       boolean and  =  (num1>num2) && (num2<num3);
+       boolean and  =  (num1<num2) && (num2<num3);
 
        System.out.println(and);
 

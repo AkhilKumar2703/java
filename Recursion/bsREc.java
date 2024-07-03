@@ -14,9 +14,10 @@ public class bsREc {
         int mid = s + (e - s) / 2;
         if (arr[mid] == target)
             return mid;
-        if (arr[mid] >= target)
+        if (arr[mid] >= target){
             return search(arr, target, s, mid - 1);
-
+        }else{
         return search(arr, target, mid + 1, e);
+        }
     }
 }

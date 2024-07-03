@@ -7,11 +7,13 @@ public class nto1 {
     }
 
     static void fun(int n) {
+        //base condition
         if (n == 0)
             return;
 
         System.out.println(n);
         fun(n - 1);
-        System.out.println(n);
+        //System.out.println(n);
     }
+    
 }

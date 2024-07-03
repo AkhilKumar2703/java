@@ -4,7 +4,7 @@ public class rev {
 
     static int sum = 0;
 
-    static int rev1(int n) {
+    static void rev1(int n) {
         if (n == 0) {
             return;
         }

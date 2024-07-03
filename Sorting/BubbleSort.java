@@ -5,18 +5,19 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = { 10, 8, 6, 4, 2, 0 };
+        System.err.println(Arrays.toString(arr));
         bubble(arr);
         System.err.println(Arrays.toString(arr));
 
     }
 
     static void bubble(int[] arr) {
-        boolean swapped;
+        //boolean swapped;
         for (int i = 0; i < arr.length; i++) {
             // we added swap just to reduce time complexity
             // as if arrays is already sorted then it means
             // we do not need to swap
-            swapped = false;
+           // swapped = false;
 
             // now after every pass max elements will be at last
 
@@ -27,14 +28,14 @@ public class BubbleSort {
                     int temp = arr[j];
                     arr[j] = arr[j - 1];
                     arr[j - 1] = temp;
-                    swapped = true;
+                   // swapped = true;
 
                 }
 
             }
-            if (!swapped) {
-                break;
-            }
+          //  if (!swapped) {
+            //     break;
+            // }
 
         }
 

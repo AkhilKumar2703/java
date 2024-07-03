@@ -3,6 +3,7 @@ public class lc367 {
     public static void main(String[] args) {
         int check = 13;
         System.out.println(isPerfectSquare(check));
+        
 
     }
 

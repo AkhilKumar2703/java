@@ -2,11 +2,14 @@ public  class helloworld{
 
     public static void main(String[] args){
     // psvm
+    
 
     
     // this is used to print the result - sout
-     System.out.println("pg tech");
-     System.out.println();
+     System.out.print("pg tech");
+     System.out.println("a");
+     //sout
+     
 
    }
 
