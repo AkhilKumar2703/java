@@ -2,7 +2,7 @@ package Recursion;
 
 public class subsequnce {
     public static void main(String[] args) {
-        subsequnce(" ", "abc");
+        subsequnce(" ", "abcd");
 
     }
 

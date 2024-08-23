@@ -7,8 +7,8 @@ public class varArgs {
 
     public static void main(String[] args) {
         // fun(1, 2, 45, 56, 98, 78, 32, 1, 45, 78, 4);
-        fun(1, 2, 45, 56, 98, 78, 32, 15, 45526, 45, 7, 8, 1);
-        fun2(45, 55, "hello", "world");
+        fun(1, 2, 45, 56, 98, 78, 32, 15, 45526, 45, 7, 8, 1,77,451,47,55,87,69,35,36,41);
+      //  fun2(45, 55, "hello", "world");
         // eg(10, 50);
 
     }
@@ -20,9 +20,9 @@ public class varArgs {
         // System.out.println(v);
     }
 
-    static void fun2(int a, int b, String... v) {
+    static void fun2(int a, int b, String... vb) {
         // System.out.println(Arrays.toString(a, b));
-        System.out.println(Arrays.toString(v));
+        System.out.println(Arrays.toString(vb));
     }
 
 }

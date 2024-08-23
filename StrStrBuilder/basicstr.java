@@ -4,9 +4,9 @@ public class basicstr {
         a = "dsa";
         System.out.println(a);
 
-        int b = 10;
-        b = 20;
-        System.out.println(b);
+        // int b = 10;
+        // b = 20;
+        // System.out.println(b);
 
 
     }

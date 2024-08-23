@@ -1,6 +1,6 @@
 package LinkedList.SingleLL;
 
-public class BasicLL {
+public class BasicLL extends BASIC{
     public static void main(String[] args) {
 
         BASIC list = new BASIC();
@@ -9,6 +9,7 @@ public class BasicLL {
         list.insertValue(37);
         list.insertValue(36);
         list.display();
+        
     }
 
 }

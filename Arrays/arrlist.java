@@ -13,13 +13,13 @@ public class arrlist {
 
 
 
-    //    list.remove(2);
+       list.remove(2);
 
-    //  System.out.println("List after removing element : " + list);
+     System.out.println("List after removing element : " + list);
 
-    //    System.out.println("size is : " + list.size());
+       System.out.println("size is : " + list.size());
 
-        // // System.out.println(list);
+        System.out.println(list);
 
 
         // System.out.println("element which is get :" + list.get(2));

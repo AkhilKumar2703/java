@@ -21,9 +21,9 @@ public class basicofARR {
         // arr[1] = 68;
         // System.out.println(Arrays.toString(arr));
 
-        // int[] abc = { 1, 88, 6, 87, 99 };
-        // abc[1] = 77;
-        // System.out.println(Arrays.toString(abc));
+        int[] abc = { 1, 88, 6, 87, 99 };
+        abc[1] = 77;
+        System.out.println(Arrays.toString(abc));
 
 
         // String [] str = {"helo","world"};

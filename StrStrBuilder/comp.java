@@ -1,8 +1,10 @@
 public class comp {
     public static void main(String[] args) {
 
-    //   String ab = "hello";
-    //   String cd = "hello";
+     
+
+
+
       String check1 = new String("hello");
       String check2 = new String("hello");
 
@@ -31,5 +33,14 @@ public class comp {
         // }else{
         //     System.out.println("False they are not identical");
         // }
+
+         // String ab = "hello";
+      // String cd = "hello";
+
+      // if(ab==cd){
+      //   System.out.println("equals");
+      // }else{
+      //   System.out.println("not equals");
+      // }
     }
 }

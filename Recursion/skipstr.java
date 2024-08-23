@@ -2,8 +2,11 @@ package Recursion;
 
 public class skipstr {
     public static void main(String[] args) {
-        skip("", "baccad");
-        System.out.println(skip2("baccad"));
+        skip("", "bappleccd");
+
+
+        
+        //System.out.println(skip2("baccad"));
 
     }
 
@@ -14,11 +17,26 @@ public class skipstr {
         }
         char c = up.charAt(0);
         if (c == 'a') {
-            skip(p, up.substring(1));
+            skip(p, up.substring(5));
         } else {
             skip(p + c, up.substring(1));
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     static String skip2(String up) {
         if (up.isEmpty()) {

@@ -12,12 +12,12 @@ public class ifprt {
         if(si>1000){
             
             if(si>4000){
-                System.out.println("SI IS BEST "+si);
+                System.out.println("SI IS High "+si);
             }else{
-                System.out.println("SI IS AVERAGE "+si );
+                System.out.println("SI IS Medium "+si );
             }
         }else{
-            System.out.println("SI IS Worse "+si);
+            System.out.println("SI IS Low "+si);
         }
     }
 }

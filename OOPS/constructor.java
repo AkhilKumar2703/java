@@ -2,9 +2,9 @@ package OOPS;
 
 public class constructor {
     public static void main(String[] args) {
-        Students[] student = new Students[5];
+        Students [] student = new Students[5];
 
-        Students akhil = new Students(45, "honey", 33.3f);
+        Students akhil = new Students(45, "hello", 33.3f);
 
         System.out.println(akhil.rollNo);
         System.out.println(akhil.name);
@@ -25,7 +25,7 @@ class Students {
     // constructor (by defalut contrustor)
     Students() {
         this.rollNo = 11;
-        this.name = "Akhlu";
+        this.name = "Akhil";
         this.marks = 99.9f;
     }
 
@@ -39,8 +39,5 @@ class Students {
         this.marks = markas;
     }
 
-    Students() {
-        // how to call and constructor from another constructor
-        this(54, "wuhoo", 33.3f);
-    }
+    
 }

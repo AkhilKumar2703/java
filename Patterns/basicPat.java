@@ -5,6 +5,7 @@ public class basicPat {
 
         Scanner s = new Scanner(System.in);
         int N = s.nextInt();
+
         int i = 1;
         while (i <= N) {
             int j = 1;

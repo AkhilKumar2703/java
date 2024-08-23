@@ -1,4 +1,5 @@
-class Solution {
+import java.util.*;
+public class  combination {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> subset = new ArrayList<>();
         combi(1, n, new ArrayList<>(), subset, k);

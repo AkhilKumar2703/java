@@ -6,17 +6,19 @@ public class nestedif {
     public static void main(String[] args) {
         Scanner t = new Scanner(System.in);
         System.out.print("ENTER THE SCORE OF SUBEJCT=");
-        int a = t.nextInt();
-        if (a >= 40) {
+        int marks = t.nextInt();
+
+        if (marks >= 40) {
             
-            if (a >= 90) {
-                System.out.println("HE IS ONE OF THE TOPPER ");
+            if (marks >= 90) {
+                System.out.println("HE/SHE IS ONE OF THE TOPPER ");
 
             }else{
             System.out.println("STUDENT GOT PASSING MARKS");
             }
 
-        }else
+        }
+        else
          {
             System.out.println("Fail ");
         }

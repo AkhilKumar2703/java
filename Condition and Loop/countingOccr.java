@@ -4,19 +4,27 @@ public class countingOccr {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("ENTER NUMBER: ");
-        int num = scan.nextInt();
-        System.out.print("ENTER VALUE TO CHECK :");
-        int occur = scan.nextInt();
-        // count will incrememt whenwver the value will occur
-        int count = 0;
-        while (num > 0) {
-            int rem = num % 10;
-            if (rem == occur) {
-                count++;
-            }
-            num = num / 10; // divide
+     int num = scan.nextInt();
+        // System.out.print("ENTER VALUE TO CHECK :");
+        // int occur = scan.nextInt();
+        // // count will incrememt whenwver the value will occur
+        // int count = 0;
+        // while (num > 0) {
+        //     int rem = num % 10;
+        //     if (rem == occur) {
+        //         count++;
+        //     }
+        //     num = num / 10; // divide
+        // }
+        // System.out.println("OCCURED VALUE IS " + count + " TIMES");
+
+        int sum =0;
+        while(num>0){
+            int rem = num%10;
+            sum =sum + rem;
+            num = num/10;
         }
-        System.out.println("OCCURED VALUE IS " + count + " TIMES");
+        System.out.println("SUM OF THE VALUES IS :"+sum);
     }
 }
 
