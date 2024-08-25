@@ -19,6 +19,7 @@ public class TreeImplementation {
     }
     private  node root;
     public  void populate(Scanner scanner){
+        System.out.println("Enter the root node");
         Scanner s = new Scanner(System.in);
         int value = s.nextInt();
          root = new node(value);
@@ -51,5 +52,19 @@ public class TreeImplementation {
         }
 
         
+    }
+    public void display(){
+        display(this.root,"");
     } 
+    public void display(node node,String intent){
+        if(node == null){
+            return;
+        }
+        System.out.println(node.value + intent);
+        display(node.left,intent+"\t");
+        display(node.right,intent+"\t");
+
+
+
+    }
 }
