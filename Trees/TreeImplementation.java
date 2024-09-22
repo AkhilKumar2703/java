@@ -30,6 +30,7 @@ public class TreeImplementation {
     }
 
     private  void populate(Scanner scanner, node node) {
+        
         System.out.println("Do you want to insert to left of "+node.value);
         boolean checkLeft= scanner.nextBoolean();
         if(checkLeft){
